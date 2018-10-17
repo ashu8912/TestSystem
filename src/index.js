@@ -1,0 +1,12 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
+import {Provider} from 'react-redux';
+import {store} from './store/reducers/rootReducer';
+import {BrowserRouter} from 'react-router-dom';
+import axios from 'axios';
+axios.defaults.baseURL="https://immense-badlands-53394.herokuapp.com"
+ReactDOM.render(<Provider store={store}><BrowserRouter><App /></BrowserRouter></Provider>, document.getElementById('root'));
+serviceWorker.unregister();

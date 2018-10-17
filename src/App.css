@@ -1,0 +1,31 @@
+.FormContainer{
+    margin:0 auto;
+    width:80%;
+    text-align: center;
+    padding:1rem;
+}
+.FormTitle{
+    margin-bottom:0.2rem;
+    font-size: 1.5rem;
+}
+.SubmitButton{
+    border:2px solid;
+    padding:0.5rem;
+    background: lawngreen;
+    font-weight:bold;
+    font-size:0.8rem;
+    border-radius:0.3rem;
+    cursor:pointer;
+}
+.SubmitButton:hover{
+    background: white;
+}
+.FormSwitchLink{
+    margin:0.2rem;
+}
+.FormSwitchLink a{
+
+font-weight:bold;
+text-decoration: none;
+color:brown;
+}

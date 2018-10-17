@@ -1,0 +1,35 @@
+.FormElement{
+    width:80%;
+    padding:1rem;
+    margin:0 auto;
+}
+.Label{
+    font-weight:bold;
+    display:block;
+    margin-bottom:0.5rem;
+    text-align: left;
+}
+.Input{
+    width:80%;
+    padding:1rem;
+    font-size:1rem;
+    border:2px solid gainsboro;
+    border-radius:0.3rem;
+}
+.Input:focus{
+    outline:none;
+}
+.Invalid{
+    border:2px solid maroon;
+}
+.ErrorMessage{
+    display:block;
+    font-weight:bold;
+    font-size:1rem;
+    margin:0.5rem;
+    text-align:left;
+    color:red;
+}
+.RequiredStar{
+    color:red;
+}
